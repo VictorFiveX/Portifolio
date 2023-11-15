@@ -1,0 +1,552 @@
+nav {
+  width: 100%;
+  height: var(--nav-height);
+  display: flex;
+  position: fixed;
+  z-index: 100;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(115rem, 100%);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+
+}
+
+nav.scroll {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+}
+
+a.logo {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+}
+
+img {
+  max-width: 100%;
+  color: var(--paragraph);
+}
+
+a.logo {
+  width: 20rem;
+  font-family: "Gemunu Libre", sans-serif;
+  opacity: 0.7;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-links li {
+  height: 3rem;
+}
+
+.menu ul:nth-child(1) li {
+  width: 8.4rem;
+  color: var(--paragraph);
+}
+
+.menu ul:nth-child(1) li {
+  width: 8.4rem;
+  color: var(--paragraph);
+}
+
+.menu ul:nth-child(1) li:nth-child(3),
+.menu ul:nth-child(1) li:nth-child(4) {
+  width: 12rem;
+}
+
+nav#navigation .menu ul li a {
+  color: var(--primary-color);
+  opacity: 0.7;
+  transition: opacity 0.4s;
+}
+
+
+.social-links svg {
+  margin-top: 1rem;
+  transition: 300ms;
+}
+
+.social-links li:nth-child(1) svg {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.social-links li:nth-child(2) svg {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.social-links li:nth-child(3) svg {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.social-links svg:hover {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.social-links li svg path {
+  transition: 200ms;
+}
+
+nav#navigation .social-links li:nth-child(1) svg:hover path,
+.social-links li:nth-child(1) svg:hover path {
+  stroke: #ff377a;
+}
+
+.social-links li:nth-child(2) svg:hover path:nth-child(2),
+nav#navigation .social-links li:nth-child(2) svg:hover path:nth-child(2) {
+  fill: #fff;
+}
+
+
+.social-links li:nth-child(3) svg:hover path:nth-child(2),
+nav#navigation .social-links li:nth-child(3) svg:hover path:nth-child(2) {
+  fill: #0a66c2;
+}
+
+.social-links li:nth-child(4) svg:hover path:nth-child(2),
+nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
+  fill: #00abf0;
+}
+
+.social-links svg {
+  margin-top: 0.3rem;
+  transition: 300ms;
+}
+
+.menu ul li a {
+  color: var(--primary-color);
+  opacity: 0.7;
+  transition: opacity 0.4s;
+}
+
+.social-links li:nth-child(1) svg path {
+  stroke: var(--primary-color);
+}
+
+.social-links li:nth-child(2) svg path:nth-child(2),
+.social-links li:nth-child(3) svg path:nth-child(2),
+.social-links li:nth-child(4) svg path:nth-child(2) {
+  fill: var(--primary-color);
+}
+
+/* */
+
+nav {
+  width: 100%;
+  height: var(--nav-height);
+  display: flex;
+  position: fixed;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(115rem, 100%);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+
+}
+
+nav.scroll {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+}
+
+a.logo {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+}
+
+img {
+  max-width: 100%;
+  color: var(--paragraph);
+}
+
+a.logo {
+  width: 20rem;
+  font-family: "Gemunu Libre", sans-serif;
+  opacity: 0.7;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-links li {
+  height: 3rem;
+}
+
+.menu ul:nth-child(1) li {
+  width: 8.4rem;
+  color: var(--paragraph);
+}
+
+.menu ul:nth-child(1) li {
+  width: 8.4rem;
+  color: var(--paragraph);
+}
+
+.menu ul:nth-child(1) li:nth-child(3),
+.menu ul:nth-child(1) li:nth-child(4) {
+  width: 12rem;
+}
+
+nav#navigation .menu ul li a {
+  color: var(--primary-color);
+  opacity: 0.7;
+  transition: opacity 0.4s;
+}
+
+
+.social-links svg {
+  margin-top: 1rem;
+  transition: 300ms;
+}
+
+.social-links li:nth-child(1) svg {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.social-links li:nth-child(2) svg {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.social-links li:nth-child(3) svg {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.social-links svg:hover {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.social-links li svg path {
+  transition: 200ms;
+}
+
+nav#navigation .social-links li:nth-child(1) svg:hover path,
+.social-links li:nth-child(1) svg:hover path {
+  stroke: #ff377a;
+}
+
+.social-links li:nth-child(2) svg:hover path:nth-child(2),
+nav#navigation .social-links li:nth-child(2) svg:hover path:nth-child(2) {
+  fill: #fff;
+}
+
+
+.social-links li:nth-child(3) svg:hover path:nth-child(2),
+nav#navigation .social-links li:nth-child(3) svg:hover path:nth-child(2) {
+  fill: #0a66c2;
+}
+
+.social-links li:nth-child(4) svg:hover path:nth-child(2),
+nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
+  fill: #00abf0;
+}
+
+.social-links svg {
+  margin-top: 0.3rem;
+  transition: 300ms;
+}
+
+.menu ul li a {
+  color: var(--primary-color);
+  opacity: 0.7;
+  transition: opacity 0.4s;
+}
+
+.social-links li:nth-child(1) svg path {
+  stroke: var(--primary-color);
+}
+
+.social-links li:nth-child(2) svg path:nth-child(2),
+.social-links li:nth-child(3) svg path:nth-child(2),
+.social-links li:nth-child(4) svg path:nth-child(2) {
+  fill: var(--primary-color);
+}
+
+
+nav#navigation a.logo,
+footer a.logo {
+  font-size: 4rem;
+  opacity: 0.7;
+}
+
+nav#navigation .close-menu,
+nav#navigation .open-menu {
+  display: none;
+}
+
+nav#navigation .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 70%;
+}
+
+nav#navigation .menu ul:nth-child(1) {
+  display: flex;
+  gap: 1rem;
+}
+
+nav#navigation .menu ul li a {
+  color: var(--primary-color);
+  opacity: 0.7;
+
+  transition: opacity 0.4s;
+}
+
+
+
+nav#navigation.scroll .menu ul li a {
+  color: var(--paragraph-2);
+  opacity: 0.6;
+}
+
+nav#navigation .menu ul:nth-child(1) li {
+  width: 8.4rem;
+  color: var(--paragraph);
+}
+
+nav#navigation .menu ul:nth-child(1) li:nth-child(3),
+nav#navigation .menu ul:nth-child(1) li:nth-child(4) {
+  width: 12rem;
+}
+
+nav#navigation .menu ul li a.active,
+nav#navigation .menu ul li a:hover {
+  opacity: 1;
+  font-weight: 700;
+}
+
+nav#navigation.scroll .menu ul li a.active,
+nav#navigation.scroll .menu ul li a:hover {
+  opacity: 1;
+}
+
+nav#navigation .menu ul:nth-child(1) li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--primary-color);
+
+  display: block;
+
+  position: relative;
+  bottom: -2rem;
+  left: -0.5rem;
+
+  transition: width 0.2s;
+}
+
+nav#navigation.scroll .menu ul li a::after {
+  background-color: var(--paragraph-2);
+}
+
+nav#navigation .menu ul li a:hover::after,
+nav#navigation .menu ul li a.active::after {
+  padding-inline: 0.8rem;
+  width: 100%;
+}
+
+nav#navigation.scroll .menu a.button:hover,
+nav#navigation.scroll .menu a.button.active {
+  background-color: var(--primary-color);
+  filter: brightness(1.3);
+  border: none;
+}
+
+nav#navigation .social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+nav#navigation .social-links li:nth-child(1) svg path {
+  stroke: var(--primary-color);
+}
+
+nav#navigation .social-links li:nth-child(2) svg path:nth-child(2),
+nav#navigation .social-links li:nth-child(3) svg path:nth-child(2),
+nav#navigation .social-links li:nth-child(4) svg path:nth-child(2) {
+  fill: var(--primary-color);
+}
+
+nav#navigation.scroll .social-links li:nth-child(1) svg path {
+  stroke: var(--paragraph-2);
+}
+
+nav#navigation.scroll .social-links li:nth-child(2) svg path:nth-child(2),
+nav#navigation.scroll .social-links li:nth-child(3) svg path:nth-child(2),
+nav#navigation.scroll .social-links li:nth-child(4) svg path:nth-child(2) {
+  fill: var(--paragraph-2);
+}
+
+nav#navigation .social-links svg {
+  margin-top: 0.3rem;
+  transition: 300ms;
+}
+
+nav#navigation .social-links svg:hover {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+nav#navigation .social-links li svg path {
+  transition: 200ms;
+}
+
+nav#navigation.scroll .social-links li:nth-child(1) svg:hover path {
+  stroke: #ff377a;
+}
+
+nav#navigation.scroll .social-links li:nth-child(2) svg:hover path:nth-child(2) {
+  fill: #fff;
+}
+
+nav#navigation.scroll .social-links li:nth-child(3) svg:hover path:nth-child(2) {
+  fill: #0a66c2;
+}
+
+nav#navigation.scroll .social-links li:nth-child(4) svg:hover path:nth-child(2) {
+  fill: #00abf0;
+}
+
+@media (max-width: 1024px) {
+  /*===== GERAL ==================================*/
+
+
+  .button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+
+  /*===== NAVEGATION ==================================*/
+  .wrapper {
+    width: min(50rem, 100%);
+    margin-inline: auto;
+    padding-inline: 2.4rem;
+  }
+
+  nav#navigation button svg {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  /*===== MENU-EXPANDED ==================================*/
+
+  body.menu-expanded .menu ul:nth-child(1) {
+    font-size: 1.4rem;
+    gap: 2rem;
+    margin: 6rem 0 7rem;
+  }
+
+  body.menu-expanded .menu .social-links svg,
+  footer svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  body.menu-expanded .menu .social-links li:nth-child(2) svg,
+  footer .social-links li:nth-child(2) svg {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+nav .menu, nav .close-menu {
+    position: fixed;
+}
+.menu {
+  transform: translateX(100%);
+}
+.menu, .close-menu, body.menu-expanded .open-menu {
+  opacity: 0;
+  visibility: hidden;
+}
+.menu ul:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 8rem 0 10rem 0;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3.1rem;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.7rem;
+}
+.menu, .close-menu, body.menu-expanded .open-menu {
+  opacity: 0;
+  visibility: hidden;
+}
+.menu ul:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 8rem 0 10rem 0;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3.1rem;
+}
+
+nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+nav .menu, nav .close-menu {
+  position: fixed;
+}
+.menu, .close-menu, body.menu-expanded .open-menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+}

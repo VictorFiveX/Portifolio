@@ -1,0 +1,85 @@
+.wrapper {
+  width: min(50rem,100%);
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+}
+
+#knowledge header h2 {
+  margin-bottom: 6rem;
+  font-size: 3rem;
+  line-height: 3.9rem;
+  color: var(--primary-color);
+}
+
+#knowledge h3 {
+  color: var(--headline);
+}
+
+
+#knowledge .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+#knowledge .card {
+  
+  padding: 2.8rem;
+  text-align: left;
+
+  background: var(--secundary-color);
+
+  border-radius: 0.6rem;
+  box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
+
+  transition: 400ms;
+}
+
+#knowledge .card:hover {
+  background: var(--third-color);
+}
+
+#knowledge .card h3 {
+  margin-block: 1.6rem;
+}
+
+#knowledge .card img {
+  width: 10rem;
+}
+
+p,
+span {
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 130%;
+  color: var(--paragraph);
+}
+
+@media (min-width: 1024px) {
+
+#knowledge h2 {
+    width: 49.7rem;
+    margin-inline: auto;
+}
+  
+#knowledge .cards {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+  
+#knowledge .card {
+  width: 30%;
+  flex-grow: 1;
+}
+app-card-knowledge{
+  
+  width: 30%;
+  flex-grow: 1;
+}
+
+.wrapper {
+    width: min(112rem,100%);
+    display: grid;
+}
+}

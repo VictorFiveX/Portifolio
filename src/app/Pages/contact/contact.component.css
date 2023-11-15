@@ -1,0 +1,186 @@
+#contact {
+    text-align: left;
+    background-color: var(--secundary-color);
+  }
+  
+  #contact .col-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin-bottom: 2rem;
+  }
+  
+  #contact .col-a .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact header {
+    margin-bottom: 3.2rem;
+  }
+  
+  #contact ul {
+    margin-bottom: 2rem;
+  }
+  
+  #contact ul a,
+  #about .content a:nth-child(2) {
+    width: fit-content;
+  
+    text-decoration: none;
+  
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  
+    padding: 1rem;
+    border-radius: 0.8rem;
+  
+    transition: 300ms;
+  }
+  
+  #contact ul a {
+    color: var(--paragraph);
+  }
+  
+  #contact ul a:hover {
+    background: var(--third-color);
+  }
+  
+  #contact a path {
+    transition: 400ms;
+  }
+  
+  #contact a.button path {
+    fill: var(--primary-color);
+  }
+  
+  #contact a.button:hover path {
+    fill: #fff;
+  }
+  
+  #contact ul li:nth-child(2) a img {
+    rotate: -15deg;
+  }
+  
+  #contact ul li:nth-child(2) a path {
+    stroke: none;
+  }
+  .button {
+    background: none;
+    border: 0.2rem solid var(--primary-color);
+  
+    margin-bottom: 6rem;
+    padding: 1.4rem 7rem;
+  
+    width: fit-content;
+  
+    color: var(--primary-color);
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+  
+    position: relative;
+  
+    transition: 400ms;
+  }
+  
+  .button:hover {
+    color: #fff;
+    background-color: var(--primary-hover);
+    border: 0.2rem solid var(--primary-hover);
+    cursor: pointer;
+  }
+h2 {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: var(--primary-color);
+}
+h2 {
+  font-size: 4rem;
+  line-height: 5.2rem;
+}
+
+/*===== CONTACT =====================================*/
+
+@media (min-width: 1024px) {
+  #contact .col-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 0;
+  }
+
+  #contact .col-a .content {
+    align-items: flex-start;
+  }
+  }
+@media (max-width: 500px) {
+
+  
+    /*===== CONTACT ==================================*/
+  
+    #contact ul a {
+      font-size: 1.3rem;
+    }
+    .buttonsDonw {
+      display: flex;
+      margin: auto;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: space-evenly;
+  }
+  
+
+  
+  }
+@media (max-width: 250px) {
+  
+
+    /*===== CONTACT ==================================*/
+  
+    #contact ul a {
+      font-size: 1.1rem;
+    }
+  
+    #contact svg {
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+    .buttonsDonw {
+      display: flex;
+      margin: auto;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: space-evenly;
+  }
+  
+    #about .download {
+    align-items: center;
+    background: none;
+    border: 0.2rem solid var(--primary-color);
+    padding: 1rem;
+    width: fit-content;
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 400ms;
+    margin-top: 1.3rem;
+  }
+  
+  }
+  
+  

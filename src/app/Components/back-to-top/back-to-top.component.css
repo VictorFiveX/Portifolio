@@ -1,0 +1,21 @@
+.ToTopButton {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 2.5rem;
+
+ 
+  opacity: 0;
+  visibility: hidden;
+
+  transition: 500ms;
+  transform: translateY(100%);
+}
+
+.ToTopButton.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.ToTopButton circle {
+  fill: var(--primary-color);
+}

@@ -1,0 +1,33 @@
+/* app-card-knowledge.component.css */
+
+.card {
+  min-height: 37rem;
+  padding: 2.8rem;
+  text-align: left;
+  
+  background: var(--secundary-color);
+  border-radius: 0.6rem;
+  box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
+  transition: 400ms;
+  width: 100%; /* Ocupa toda a largura do seu contêiner pai */
+}
+
+.card:hover {
+  background: var(--third-color);
+}
+
+h3 {
+  color: var(--headline);
+  margin-block: 1.6rem;
+}
+
+img {
+  width: 10rem;
+}
+
+p, span {
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 130%;
+  color: var(--paragraph);
+}
