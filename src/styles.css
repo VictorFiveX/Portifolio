@@ -274,10 +274,6 @@ body nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
   fill: var(--primary-color);
 }
 
-#contact li path,
-#navigation button.open-menu path[stroke*="#0FFFFF"] {
-  stroke: var(--primary-color);
-}
 
 #navigation.scroll button.open-menu path[stroke*="#0FFFFF"] {
   stroke: var(--paragraph-2);
