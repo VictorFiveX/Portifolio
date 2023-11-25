@@ -166,7 +166,7 @@ section span {
 #home .wrapper {
 
     width: min(112rem, 100%);
-    display: grid;
+
     flex-direction: row;
     justify-content: space-between;
 

@@ -1,6 +1,6 @@
 <nav id="navigation" [class.scroll]="showNav" [ngClass]="{ 'open': isMenuOpen, 'close': !isMenuOpen }" [class.menu-expanded]="isMenuOpen">
   <div class="wrapper">
-    <a class="logo close" routerLink="/home">
+    <a class="logo close" [routerLink]="['/']" >
       <img src="assets/Images/Icons/logo.png" alt="logo" />&nbsp;&nbsp; Victor
     </a>
 
