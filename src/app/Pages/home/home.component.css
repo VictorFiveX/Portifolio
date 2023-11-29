@@ -8,6 +8,7 @@
 }
 
 .wrapper {
+
   height: 53rem;
 
   display: flex;
@@ -207,6 +208,13 @@ section span {
 
   
 }
+
+@media (max-width: 1024px){
+#home .wrapper {
+  margin-top: 25%;
+}
+}
+
 @media (max-width: 500px) {
 /*===== HOME ==================================*/
 

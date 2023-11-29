@@ -621,3 +621,170 @@ body.menu-expanded button path {
   }
 
 }
+@media (max-width: 320px) {
+  /*===== GERAL ==================================*/
+
+  .wrapper {
+    padding-inline: 2rem;
+  }
+
+  /*===== HOME ==================================*/
+
+ 
+  #home h1 {
+    font-size: 3.2rem;
+  }
+
+  #home p {
+    font-size: 1.4rem;
+  }
+
+  #home .line {
+    white-space: initial;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 18rem;
+    }
+  }
+
+  /*===== ABOUT ==================================*/
+
+  #about .content a:nth-child(2) {
+    font-size: 1.2rem;
+  }
+  .download {
+    padding: 0.8rem 1.6rem;
+    font-size: 0.5rem;
+    gap: 0.6rem;
+  }
+  .buttonsDonw {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+#about .download {
+  align-items: center;
+  background: none;
+  border: 0.2rem solid var(--primary-color);
+  padding: 1rem;
+  width: fit-content;
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 400ms;
+  margin-top: 1.3rem;
+}
+
+}
+
+@media (max-width: 250px) {
+  /*===== GERAL ==================================*/
+
+  .wrapper {
+    padding-inline: 1rem;
+  }
+
+  body section h2 {
+    font-size: 2rem;
+  }
+
+  section h3 {
+    font-size: 1.2rem;
+  }
+
+  section p,
+  section span,
+  footer p {
+    font-size: 1.1rem;
+  }
+
+  .button {
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+    gap: 0.6rem;
+  }
+
+  .social-links {
+    gap: 1.5rem;
+  }
+
+  nav#navigation a.logo,
+  footer a.logo {
+    font-size: 2.5rem;
+  }
+
+  /*===== HOME ==================================*/
+
+  #home h1 {
+    font-size: 2.9rem;
+  }
+
+  #home p {
+    font-size: 1.2rem;
+  }
+
+
+  /*===== PROJECTS ==================================*/
+
+  #projects .card {
+    padding: 1.8rem;
+  }
+
+  #projects .card .buttons {
+    flex-direction: column;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+  }
+
+  #projects .card .buttons a {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  /*===== CONTACT ==================================*/
+
+  #contact ul a {
+    font-size: 1.1rem;
+  }
+
+  #contact svg {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .buttonsDonw {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+  #about .download {
+  align-items: center;
+  background: none;
+  border: 0.2rem solid var(--primary-color);
+  padding: 1rem;
+  width: fit-content;
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 400ms;
+  margin-top: 1.3rem;
+}
+
+}
