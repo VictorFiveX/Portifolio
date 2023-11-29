@@ -12,21 +12,7 @@
   
     transition: 400ms;
   }
-.card {
-    padding: 4rem;
-    background: var(--bg-color);
 
-    min-height: 59rem;
-    border-radius: 0.6rem;
-    box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2.5rem;
-  
-    transition: 400ms;
-  }
   
 .card:hover {
     background: var(--third-color);
@@ -139,35 +125,8 @@ span {
   margin-top: auto;
   color: var(--paragraph);
 }
-.card {
-  padding: 4rem;
-  background: var(--bg-color);
 
-  border-radius: 0.6rem;
-  box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.5rem;
-
-  transition: 400ms;
-}
-.card {
-  padding: 4rem;
-  background: var(--bg-color);
-
-  min-height: 59rem;
-  border-radius: 0.6rem;
-  box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.5rem;
-
-  transition: 400ms;
-}
 
 .card:hover {
   background: var(--third-color);
@@ -284,5 +243,45 @@ color: var(--paragraph);
 @media (min-width: 1024px){
  h3 {
     color: var(--headline);
+}
+
+.card {
+  padding: 4rem;
+  background: var(--bg-color);
+
+  min-height: 59rem;
+  border-radius: 0.6rem;
+  box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+
+  transition: 400ms;
+}
+
+}
+@media (max-width: 1024px){
+.card {
+  padding: 2.5rem;
+}
+
+.card {
+  
+  background: var(--bg-color);
+
+  border-radius: 0.6rem;
+  box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+
+  transition: 400ms;
+}
+p{
+  font-size: 1.3rem;
 }
 }

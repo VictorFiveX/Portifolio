@@ -241,6 +241,7 @@ section span {
     }
   }
 }
+
 @media (max-width: 397px) {
   /*===== HOME ==================================*/
   
@@ -285,9 +286,9 @@ section span {
     }
   }
   
-  }
+}
 
-@media(min-width:320 ){
+@media(min-width:320px){
 #home h1{
   font-size: 3.2rem;
 }

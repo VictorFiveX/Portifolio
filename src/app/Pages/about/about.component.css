@@ -72,7 +72,7 @@ section h2 {
 
 section p, section span {
     font-weight: 400;
-    font-size: 1.7rem;
+    
     line-height: 130%;
     color: var(--paragraph);
 }
@@ -93,6 +93,10 @@ h2 {
 
 
 @media (min-width: 1024px) {
+
+section p {
+  font-size: 1.7rem;
+}
     
 /*===== ABOUT =======================================*/
 
@@ -267,5 +271,23 @@ h2 {
     transition: 400ms;
     margin-top: 1.3rem;
 }
+
+
   
+}
+@media (max-width: 397px) {
+  /*===== HOME ==================================*/
+  
+#about .content p {
+    text-align: justify;
+    margin-block: 2.4rem;
+    margin-bottom: 5rem;
+}
+
+section, section span {
+  font-weight: 400;
+  font-size: 1.3rem;  
+  line-height: 130%;
+  color: var(--paragraph);
+}
 }
