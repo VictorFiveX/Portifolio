@@ -7,16 +7,16 @@
     <div class="menu">
       <ul>
         <li>
-          <a id="aboutNav" class="close" [routerLink]="['/']" fragment="about">Sobre mim</a>
+          <a id="aboutNav" class="close" [routerLink]="['/']" fragment="about" (click)="closeMenu()">Sobre mim</a>
         </li>
         <li>
-          <a id="projectsNav" class="close" [routerLink]="['/']" fragment="projects">Projetos</a>
+          <a id="projectsNav" class="close" [routerLink]="['/']" fragment="projects" (click)="closeMenu()">Projetos</a>
         </li>
         <li>
-          <a id="knowledgeNav" class="close" [routerLink]="['/']" fragment="knowledge">Conhecimentos</a>
+          <a id="knowledgeNav" class="close" [routerLink]="['/']" fragment="knowledge" (click)="closeMenu()">Conhecimentos</a>
         </li>
         <li>
-          <a id="contactNav" class="close" [routerLink]="['/']" fragment="contact">Fale comigo</a>
+          <a id="contactNav" class="close" [routerLink]="['/']" fragment="contact" (click)="closeMenu()">Fale comigo</a>
         </li>
       </ul>
 

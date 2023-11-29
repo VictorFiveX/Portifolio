@@ -50,14 +50,7 @@ p {
     typing 2s steps(60) 1.3s normal backwards;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 27.5rem;
-  }
-}
+
 
 @keyframes line-typing {
   from {
@@ -210,9 +203,22 @@ section span {
 }
 
 @media (max-width: 1024px){
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 30.5rem;
+    }
+  }
+  
 #home .wrapper {
-  margin-top: 25%;
+  margin-top: 35%;
 }
+#home p {
+  font-size: 2rem;
+}
+
 }
 
 @media (max-width: 500px) {
@@ -235,32 +241,58 @@ section span {
     }
   }
 }
-@media (max-width: 320px) {
-/*===== HOME ==================================*/
+@media (max-width: 397px) {
+  /*===== HOME ==================================*/
+  
+   
+  #home h1 {
+      font-size: 2.7rem;
+    }
+  
+  #home p {
+      font-size: 1.4rem;
+    }
+  
+    #home .typing {
+      animation: line-typing .60s steps(60) infinite normal, typing 2s steps(60) 1.3s normal backwards;
+    }
 
  
-#home h1 {
-    font-size: 3.2rem;
+
+    #home .line {
+      border-right: 0.2rem solid var(--primary-color);
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  
+  .button {
+      padding: 1rem 2rem;
+      font-size: 2rem;
   }
 
-#home p {
-    font-size: 1.4rem;
+  .line {
+    border-right: 0.2rem solid var(--primary-color);
+    white-space: nowrap;
+    overflow: hidden;
   }
 
-#home .line {
-    white-space: initial;
-  }
-
-@keyframes typing {
+  @keyframes typing {
     from {
       width: 0;
     }
     to {
-      width: 18rem;
+      width: 30.5rem;
     }
   }
+  
+  }
 
+@media(min-width:320 ){
+#home h1{
+  font-size: 3.2rem;
 }
+}
+
 @media (max-width: 250px) {
 
   /*===== HOME ==================================*/
