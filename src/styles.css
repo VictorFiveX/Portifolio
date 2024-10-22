@@ -656,6 +656,8 @@ body.menu-expanded button path {
 
   #about .content a:nth-child(2) {
     font-size: 1.2rem;
+    font-family: arial, sans-serif;
+    
   }
   .download {
     padding: 0.8rem 1.6rem;
